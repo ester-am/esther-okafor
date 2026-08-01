@@ -90,7 +90,8 @@ aside {
 }
 section {
   background: #75000011;
-  width: 350px;   
+  width: 350px;
+  align-items: left;
   border-radius: 8px;
   padding: 24px;
   margin-bottom: 24px;
