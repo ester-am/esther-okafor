@@ -13,9 +13,12 @@ body{
 
 header {
   height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
   color: #750000;
-  padding: 60px 20px;
-  text-align: left;
+  text-align: center;
 }
 
 
