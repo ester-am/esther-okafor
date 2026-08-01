@@ -73,12 +73,12 @@ nav li:first-child{
     width: 100%;
 }
 .sidebar a{
-    width :100%;
+    width:100%;
 }
 
 main {
   max-width: 960px;
-  background-color: white;
+  background-color: #75000011;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -91,7 +91,7 @@ section {
 }
 section h2 {
   margin-top: 0;
-  color: #04AA6D;
+  color: #5a6160;
 }
 footer {
   padding: 24px;
