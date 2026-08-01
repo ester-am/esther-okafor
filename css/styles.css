@@ -93,6 +93,10 @@ section h2 {
   margin-top: 0;
   color: #5a6160;
 }
+aside {
+  width: 250px;    
+  flex-shrink: 0;     
+}
 footer {
   padding: 24px;
   text-align: center;
