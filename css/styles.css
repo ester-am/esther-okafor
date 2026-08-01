@@ -85,7 +85,7 @@ main {
   padding: 40px 20px;
 }
 aside {
-  width: 150px;    
+  width: 300px;    
   flex-shrink: 0;     
 }
 section {
