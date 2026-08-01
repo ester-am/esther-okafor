@@ -6,13 +6,13 @@
 body{
     min-height: 100vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #75000011;
+    background: white;
     color: #5a6160;
     margin: 0;
 }
 
 header {
-  height: 100px;
+  height: 60px;
   color: #750000;
   padding: 60px 20px;
   text-align: left;
@@ -78,13 +78,19 @@ nav li:first-child{
 
 main {
   max-width: 960px;
-  background-color: #75000011;
+  display: flex;
+  gap: 2rem;
+  background-color: white;
   margin: 0 auto;
   padding: 40px 20px;
 }
+aside {
+  width: 150px;    
+  flex-shrink: 0;     
+}
 section {
-  background: #fff;
-  border-radius: 12px;
+  background: #75000011;
+  border-radius: 8px;
   padding: 24px;
   margin-bottom: 24px;
   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
@@ -93,14 +99,10 @@ section h2 {
   margin-top: 0;
   color: #5a6160;
 }
-aside {
-  width: 250px;    
-  flex-shrink: 0;     
-}
 footer {
   padding: 24px;
   text-align: center;
-  background: #e8edf4;
+  background: #750000;
   font-size: 0.9rem;
 }
 
