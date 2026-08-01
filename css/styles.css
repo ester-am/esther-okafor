@@ -13,6 +13,33 @@ header {
   padding: 60px 20px;
   text-align: center;
 }
+
+.site-nav ul {
+  display:flex; 
+  gap:16px; 
+  list-style:none; 
+  padding:0; 
+  margin:0;
+}
+.site-nav a {
+  display:block; 
+  padding:12px 20px; 
+  border-radius:999px; 
+  text-decoration:none; 
+  color:#0f172a; 
+  font-weight:600;
+}
+.site-nav a:hover, .site-nav a.active {
+  background:#04AA6D; 
+  color:#fff;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  color: var(--text-color)
+}
+
 main {
   max-width: 960px;
   margin: 0 auto;
