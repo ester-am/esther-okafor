@@ -84,12 +84,9 @@ main {
   margin: 0 auto;
   padding: 40px 20px;
 }
-aside {
-  width: 500px;    
-  flex-shrink: 0;     
-}
+
 section {
-  background: #75000011;
+  background: rgba(255, 255, 255, 0.755);
   width: 350px;
   align-items: left;
   border-radius: 8px;
@@ -108,4 +105,3 @@ footer {
   font-size: 0.9rem;
   color: white;
 }
-
