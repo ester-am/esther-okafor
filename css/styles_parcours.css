@@ -114,3 +114,8 @@ footer {
   font-size: 0.9rem;
   color: white;
 }
+img.responsive {
+  max-width:100%; 
+  height:auto; 
+  border-radius:16px;
+}
