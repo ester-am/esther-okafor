@@ -10,7 +10,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: white;
     color: #5a6160;
-    margin: 25px 25px 25px 25px;
+    margin: 0;
 }
 
 header {
@@ -87,8 +87,8 @@ main {
 
 section {
   background: rgba(255, 255, 255, 0.6);
-  width: 50%;
-  align-items: left;
+  width: 60%;
+  align-items: center;
   border-radius: 8px;
   padding: 24px;
   margin-bottom: 24px;
@@ -96,6 +96,14 @@ section {
 }
 section h2 {
   margin: 25px 25px 25px 25px;;
+  color: #5a6160;
+}
+section h3 {
+  margin: 20px 20px 20px 20px;;
+  color: #5a6160;
+}
+section p {
+  margin: 10px 10px 10px 10px;;
   color: #5a6160;
 }
 footer {
